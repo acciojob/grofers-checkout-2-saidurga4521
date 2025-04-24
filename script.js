@@ -1,6 +1,6 @@
 //your code here
 
-let priceCells=document.querySelectorAll('[data-ns-test="prices"]');
+let priceCells=document.querySelectorAll('[data-ns-test="price"]');
 let total=0;
 priceCells.forEach((cell)=>{
 	total+=Number(cell.textContent)
